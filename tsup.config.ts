@@ -13,6 +13,7 @@ export default defineConfig([
     sourcemap: false,
     bundle: true,
     outExtension: () => ({ js: '.mjs' }),
+    shims: true,
   },
   // src cjs
   {
